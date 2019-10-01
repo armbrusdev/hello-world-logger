@@ -1,8 +1,11 @@
 /**
- * Logs "Hello World" to the console.
+ * A console logger that can only log \"Hello World\".
  */
-function logHelloWorld() {
-    console.log('Hello World');
-}
+const helloWorldLogger = {
+    /**
+     * Logs "Hello World" to the console.
+     */
+    logHelloWorld: () => console.log('Hello World'),
+};
 
-module.exports = logHelloWorld;
+module.exports = helloWorldLogger;
