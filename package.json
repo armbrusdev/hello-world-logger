@@ -1,0 +1,19 @@
+{
+  "name": "hello-world-logger",
+  "version": "1.0.0",
+  "description": "A console logger that can only log \"Hello World\".",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/armbrusdev/hello-world-logger.git"
+  },
+  "author": "Jan Armbruster",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/armbrusdev/hello-world-logger/issues"
+  },
+  "homepage": "https://github.com/armbrusdev/hello-world-logger#readme"
+}
